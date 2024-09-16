@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    flex: 1 0 250px;
+    height: 350px;
+}
+
+.column{
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #EBECF0;
+    border-radius: 10px;
+    padding: 12px;
+    gap: 15px;
+    width: 100%;
+    height: 350px;
+}
+
+.taskContainer{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 15px;
+}
+
+.task{
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    overflow: hidden;
+}
+
+.columnButton{
+    margin-top:auto;
+    background: #ffffff;
+    border-radius: 10px;
+    color: #5E6C84;
+    font-size: 18px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    max-width: 102px;
+    height: 29px;
+    transition: all 0.5s ease;
+}
+
+.buttonSpan{
+    font-size: 24px;
+    margin-right: 3px;
+}
+
+.select{
+    overflow: hidden;
+    width: 100%;
+}
+
+.input{
+    visibility: hidden;
+}
+
+.active{
+    visibility: visible;
+}
+
+.buttonActive{
+    background-color: #0067A3;
+    color: #ffffff;
+}

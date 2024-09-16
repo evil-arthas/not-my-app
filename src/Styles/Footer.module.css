@@ -1,0 +1,15 @@
+.footer{
+    background-color: #0067A3;
+    padding: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 40px;
+}
+
+.span{
+    color: #ffffff;
+}
+
+.spanLeftMargined{
+    margin-left: auto;
+}
